@@ -1,8 +1,8 @@
 #include "sensors.h"
 #include "config.h"
-#include "ma_api_logger.h"
-#include "ma_api_rain_sensor.h"
-#include "ma_api_soil_moisture_sensor.h"
+#include "ma_api_logger\ma_api_logger.h"
+#include "ma_api_rain_sensor\ma_api_rain_sensor.h"
+#include "ma_api_soil_moisture_sensor\ma_api_soil_moisture_sensor.h"
 
 void get_all_sensors_average_value(double in_seaLevelPressureHpa, Adafruit_BME680 in_bme, BH1750 in_lightMeterSensor, DallasTemperature in_soilTemperature, st_all_sensors_t *out_allSensorsAverageValue, uint8_t in_timesToAverage)
 {

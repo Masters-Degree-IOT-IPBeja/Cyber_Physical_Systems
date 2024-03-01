@@ -56,7 +56,7 @@ void setup()
   set_modem_sleep();
 
   ++bootCount;
-  LOGGER(INFO, "Boot number: %s", String(bootCount).c_str());
+  LOGGER(INFO, "Boot number: %d", bootCount);
   logger_wakeup_reason();
 
   st_configs_saved_memory_update_via_mqtt_t stLoadStruct;
