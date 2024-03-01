@@ -1,12 +1,12 @@
-[submodule "sobreiro_monitor_esp32_arduino/submodules/am_api_wifi_auto_ap_station"]
-	path = sobreiro_monitor_esp32_arduino/submodules/am_api_wifi_auto_ap_station
+[submodule "sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_wifi_auto_ap_station"]
+	path = sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_wifi_auto_ap_station
 	url = git@github.com:MauroJPA/auto_wifi_mode_station_or_ap_with_web_server.git
-[submodule "sobreiro_monitor_esp32_arduino/submodules/am_api_logger"]
-	path = sobreiro_monitor_esp32_arduino/submodules/am_api_logger
-	url = git@github.com:MauroJPA/logger_with_levels_and_prints_esp32_arduino.git
-[submodule "sobreiro_monitor_esp32_arduino/submodules/am_api_soil_moisture_sensor"]
-	path = sobreiro_monitor_esp32_arduino/submodules/am_api_soil_moisture_sensor
+[submodule "sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_soil_moisture_sensor"]
+	path = sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_soil_moisture_sensor
 	url = git@github.com:MauroJPA/arduino_soil_moisture_sensor_api.git
-[submodule "sobreiro_monitor_esp32_arduino/submodules/am_api_rain_sensor"]
-	path = sobreiro_monitor_esp32_arduino/submodules/am_api_rain_sensor
+[submodule "sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_rain_sensor"]
+	path = sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_rain_sensor
 	url = git@github.com:MauroJPA/arduino_rain_sensor_api.git
+[submodule "sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_logger"]
+	path = sobreiro_monitor_esp32_arduino/lib/submodules/ma_api_logger
+	url = git@github.com:MauroJPA/logger_with_levels_and_prints_esp32_arduino.git
